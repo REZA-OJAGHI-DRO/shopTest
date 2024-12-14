@@ -12,7 +12,7 @@ import SalesDiscounts from "../management-panel/routes/sales-rules/sales-discoun
 import confirmationSupplier from "../management-panel/routes/confirmation-registered-persons/confirmation-supplier";
 import ConfirmationShopper from "../management-panel/routes/confirmation-registered-persons/confirmation-shopper";
 import Packaging from "../management-panel/routes/basic-definitions/packaging";
-import UnitOfGoods from "../management-panel/routes/basic-definitions/unit-Goods";
+import Unit from "../management-panel/routes/basic-definitions/unit";
 import ClassificationOfGoods2 from "../management-panel/routes/basic-definitions/classification-goods/classification-goods2";
 import ClassificationOfGoods3 from "../management-panel/routes/basic-definitions/classification-goods/classification-goods3";
 import ClassificationOfGoods1 from "../management-panel/routes/basic-definitions/classification-goods/classification-goods1";
@@ -156,7 +156,7 @@ function AppRouter() {
                 }
               />
               <Route path="Packaging" element={<Packaging />} />
-              <Route path="UnitOfGoods" element={<UnitOfGoods />} />
+              <Route path="UnitOfGoods" element={<Unit />} />
               <Route path="ProfileSupplier" element={<ProfileSupplier />} />
               <Route path="UploadVideoSupplier" element={<UploadVideoSupplier />} />
               <Route path="Cartable" element={<Cartable />} />
